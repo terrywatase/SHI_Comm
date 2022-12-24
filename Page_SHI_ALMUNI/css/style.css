@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+/* 全体書式を定義 */
+body{
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+font-size:20px;
+border-top: 20px solid rgb(8, 0, 255) !important;
+}
+/* 全体えHLの下線や変色を辞める */
+a{
+  text-decoration: none;
+  color: #333;
+}
+.logo{
+  text-align: center;
+  margin-bottom:30px;
+}
+
+.logo img{
+  display: inline-block;
+  margin-top:20px;
+  }
+
+.discript{
+  text-align: center;
+}
+.w_inner{
+  width:1200px;
+ /* 上下０で左右は自動でかわる */ 
+  
+  margin: 0 auto;}
+ 
+  /* 取り敢えず背景色も消しておく */
+.header{  
+  background:rgb(235, 235, 235);
+  }
+
+.header ul{
+  display:flex;
+}
+
+.header ul li{
+  width:200px;
+  text-align: center;
+  border-right: 2px solid rgba(249, 246, 23, 0.767) ;
+}
+.header ul li:first-child{
+  border-left: 2px solid  rgba(249, 246, 23, 0.767);
+}
+.header ul li a{
+  display:block;
+}
+.header_img{
+  text-align: center;
+}
+.header_img img{
+  display: inline-block;
+  max-height: 750px;
+  min-inline-size: 1000px;
+}
+.container_service .service_block{
+  display: flex;
+  justify-content:space-between;
+  text-align: center;
+}
+.container_service h2{
+text-align: center;
+font-weight: bold;
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+/* .container_service .service */
+
+.service_block .service img{
+  margin-bottom: 20px;
+  width: 50%;
+  height:50%;
+}
+.service_block .service .ttl{
+  font-weight: bold;
+  font-style: 18px;
+  margin-bottom: 15px;
+}
+.service_block .service .exp{
+  margin-bottom: 20px;
+  
+  overflow-wrap: normal;
+}
+.service_block .service a{
+  background-color: #79a1b1;
+  color: #fff;
+  padding: 15px 20px 15px;
+}
+.footer{
+  margin-top: 40px;
+}
+.pp_link{
+  text-align: right;
+  margin-bottom: 10px;
+}
+.cr{
+  text-align: center;
+  background: rgb(8, 0, 255);
+  color: #fff;
+  font-size: 20px;
+  padding:3px 0 3px
+
+}
+
+
+
+
+
+
+
+
